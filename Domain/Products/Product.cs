@@ -7,5 +7,3 @@ public class Product
     public Money Price { get; private set; }
     public Sku Sku { get; private set; }
 }
-
-public record ProductId(Guid Id);
